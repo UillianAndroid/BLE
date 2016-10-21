@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PumpUserWorkRecord" >
+    
+     <include
+        android:id="@+id/info_title"
+        layout="@layout/public_title_layout" />
+
+     <ScrollView 
+         	android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:scrollbars="none"
+        android:layout_below="@id/info_title"
+           >
+        
+       <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"           
+        android:orientation="vertical"
+           >
+    
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:onClick="clickPumpInfusionrecord"
+    	 >
+     
+        	<View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            />
+        	
+        	<LinearLayout
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="vertical"
+        	    android:layout_marginLeft="25dp"
+        	    android:layout_centerVertical="true"
+        	    >
+        	
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/p_trans_record"
+        	    android:singleLine="true"
+        	    android:textSize="16sp"
+        	    android:textColor="@color/darkgraytype"
+        	    />
+        	    
+        	</LinearLayout>
+        	
+        	<View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grayline"
+            />
+   </RelativeLayout>
+   
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:onClick="clickPumpTotaldailyrecord"
+    	 >
+     
+        	<View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/purple"
+            />
+        	
+        	<LinearLayout
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="vertical"
+        	    android:layout_marginLeft="25dp"
+        	    android:layout_centerVertical="true"
+        	    >
+        	
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/p_days_record"
+        	    android:singleLine="true"
+        	    android:textSize="16sp"
+        	    android:textColor="@color/darkgraytype"
+        	    />
+        	    
+        	</LinearLayout>
+        	
+        	<View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grayline"
+            />
+   </RelativeLayout>
+   
+         <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:onClick="clickPumpCallPoliceyrecord"
+    	 >
+     
+        	<View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/orange"
+            />
+        	
+        	<LinearLayout
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="vertical"
+        	    android:layout_marginLeft="25dp"
+        	    android:layout_centerVertical="true"
+        	    >
+        	
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/p_alerm_record"
+        	    android:singleLine="true"
+        	    android:textSize="16sp"
+        	    android:textColor="@color/darkgraytype"
+        	    />
+        	    
+        	</LinearLayout>
+        	
+        	<View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grayline"
+            />
+   </RelativeLayout>
+   
+          <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:onClick="clickPumpInfusionseting"
+    	 >
+     
+        	<View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            />
+        	
+        	<LinearLayout
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="vertical"
+        	    android:layout_marginLeft="25dp"
+        	    android:layout_centerVertical="true"
+        	    >
+        	
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/p_trans_set"
+        	    android:singleLine="true"
+        	    android:textSize="16sp"
+        	    android:textColor="@color/darkgraytype"
+        	    />
+        	    
+        	</LinearLayout>
+        	
+        	<View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grayline"
+            />
+   </RelativeLayout>
+   
+      </LinearLayout>
+      
+       </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/pump_infusion_setting_item_list_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/graytype"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="40dp"
+        android:background="@color/grayline" />
+
+    <TextView
+        android:id="@+id/pump_infusion_setting_item_list_dose"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/graytype"
+        android:textSize="14sp" />
+
+</LinearLayout>

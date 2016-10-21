@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="darkgraytype">#525252</color> <!-- 深灰色字体 -->
+    <color name="graytype">#7A7A7A</color> <!-- 浅灰字体 -->
+    <color name="grayline">#E3E3E3</color> <!-- 浅灰横线 -->
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="bluecgm">#4bc7ea</color> <!-- CGM蓝色 -->
+    <color name="red">#d94758</color> <!-- 红色 -->
+    <color name="graybg">#F0F0F0</color> <!-- 浅灰背景 -->
+    <color name="olivedrab">#4fd3c1</color> <!-- 深绿褐色 -->
+    <color name="darkorchid">#6760a8</color> <!-- 暗紫色 -->
+    <color name="orangered">#ffa74c</color> <!-- 红橙色 -->
+    <color name="blue">#4FB4D6</color> <!-- 蓝色 -->
+    <color name="green">#4fd3c1</color> <!-- 绿色 -->
+    <color name="purple">#8a8aff</color> <!-- 紫色 -->
+    <color name="orange">#FFA500</color> <!-- 橙色 -->
+    <color name="blue_dark">#3FAA6F</color> <!-- 深蓝色 -->
+    <color name="blue_light">#6BCB97</color> <!-- 浅蓝色 -->
+    <color name="transparent">#00000000</color>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wx.pumptest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.wx.ui.BleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.wx.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wx.ui.DeviceScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.WNInsulinPump"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.WNInsulinPumpInformaton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.WNInsulinPumpRecord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.WNInsulinPumpWorkRecord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.WNInsulinWorkStatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserInformationNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkRecord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkRecordCallpoliceNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkRecordInfusionNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkRecordInfusionSetingNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkRecordTotaldailyNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wx.ui.PumpUserWorkStatusNew"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.xtremeprog.sdk.ble.BleService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
